@@ -1,0 +1,16 @@
+{
+  "name": "update-ip-dns",
+  "module": "index.js",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "cloudflare": "^4.2.0",
+    "cron": "^4.3.0"
+  }
+}
